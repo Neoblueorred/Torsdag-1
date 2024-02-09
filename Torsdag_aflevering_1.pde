@@ -99,7 +99,7 @@ if(min + max > 10) {
 int min = 5;
 int max = 10;
 
-if(min + max > 10 || min <= 10) {
+if(min + max > 10 && (min <= 5)|| max <= 5)){
   println("Success!");
 }
 
