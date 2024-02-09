@@ -123,7 +123,7 @@ if(x + y + z == 30 ||x == 10 || x == 20 || x == 30 || y == 10 || y == 20 || y ==
 
 //task 4 - 4.a
 for (int i = 0; i <= 20; i++) {
-    System.out.println(i);
+    println(i);
     
     try {
         Thread.sleep(1000); // programmet stopper hvert sekund
@@ -136,7 +136,7 @@ for (int i = 0; i <= 20; i++) {
 
 //task 4 - 4.b
 for (int i = 2; i <= 20; i+=2) {
-    System.out.println(i);
+    println(i);
     
     try {
         Thread.sleep(1000); // programmet stopper hvert sekund
@@ -169,7 +169,7 @@ for (int i = 20; i >= 1; i--) {
     }
 }
    
-System.out.println("Take off!");
+println("Take off!");
 
 ///////////////////////////////////////////////////////////////////////////
 
